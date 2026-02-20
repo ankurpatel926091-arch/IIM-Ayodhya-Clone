@@ -1,0 +1,36 @@
+.red-line{
+    height: 2px;
+    width: 20%;
+    background-color: rgb(202, 104, 35);
+    border-radius: 2px;
+}
+
+
+
+#loginpage:hover{
+    background-color:bisque;
+    transform: translateY(-20px);
+    transition: 0.2s ease;
+
+    
+}
+.zoomcard div{
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+
+}
+.zoomcard img{
+    transition:.3s ease;
+    border-radius: 5px 5px 0 0;
+
+}
+.zoomcard:hover{
+      transform: scale(1.5);
+}
+.enq{
+    position: fixed;
+    top: 40%;
+    left: -23px;
+    transform: rotate(-90deg);
+    z-index: 999;
+}
